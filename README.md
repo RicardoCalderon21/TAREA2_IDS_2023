@@ -8,6 +8,7 @@ No te gustaría poder visualizar esos algoritmos en tiempo real? en el lenguaje 
 
 Sorthem es una herramineta que te permite visualizar TUS algoritmos de ordenamiento
 de forma fácil y sencilla, solo añadiendo unas pocas líneas de código!!! 🙀🙀
+Este es el motivo por el que creamos sorthem.
 
 ![Bubble Sort sorthem demo](./assets/demo.gif)
 
@@ -53,7 +54,7 @@ desde la [página oficial](https://www.sfml-dev.org/download/sfml/2.5.1/).
 
 ### Paso 2. Compilar el proyecto sorthem
 
-Una vez instalado SFML, ya puedes compilar `sorthem` con los siguients comandos.
+Una vez instalado SFML, ya puedes compilar `sorthem` con los siguientes comandos.
 
 Clona el repositorio:
 
@@ -77,27 +78,49 @@ Compila el proyecto con el script de bash `build.sh`:
 
 ### Prueba Sorthem
 
-```bash
-cat examples/test | dist/sorthem
-```
+Como dijimos antes, sorthem te permite correr algoritmos escritos en cualquier lenguaje de programación.
 
-## Getting started
+Tenemos muchos ejemplos en la carpeta de [examples/](https://github.com/RicardoCalderon21/TAREA2_IDS_2023/tree/main/examples).
 
-### Usage
+Prueba este.
 
 ```bash
-your_sorting_algorithm | sorthem
+cat ./examples/test | ./dist/sorthem
 ```
 
-### Controls
+Si tiene NodeJS puede probar el de bubble_sort ([Instalar para MacOS](https://formulae.brew.sh/formula/node)).
 
-- <kbd>Space</kbd> - pause/resume
-- <kbd>R</kbd> - restart
-- <kbd>&uparrow;</kbd> - speed up
-- <kbd>&downarrow;</kbd> - speed down
+```bash
+node ./examples/bubble_sort.js | ./dist/sorthem
+```
+Si tienes Python, puedes probar nuestro algoritmo de merge_sort:
 
+```bash
+node ./examples/merge_sort.py | ./dist/sorthem
+```
 
-## How does it work?
+Si tienes c++, puedes probar nuestro algoritmo de pigeonhole_sort.cpp:
+
+```bash
+# Compila el archivo:
+g++ ./examples/pigeonhole_sort.cpp -o algoritmo
+
+./algoritmo | ./dist/sorthem
+```
+
+Como puedes ver, sorthem funciona para cualquier lenguaje, puedes crear tus algoritmos
+fácilmente.
+
+Puedes usar los siguientes controles en la aplicación:
+
+### Controles
+
+- <kbd>Space</kbd> - pausar/continuar
+- <kbd>R</kbd> - reiniciar algoritmo
+- <kbd>&uparrow;</kbd> - subir la velocidad
+- <kbd>&downarrow;</kbd> - bajar la velocidad
+
+## Cómo funciona por detrás?
 
 Sorthem is simple. You have a sorting algorithm, written in **whatever
 language you like**. Let's say, a **bubble sort** implementation in **Ruby**:
