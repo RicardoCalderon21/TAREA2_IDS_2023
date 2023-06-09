@@ -1,8 +1,15 @@
 <!-- markdownlint-disable MD033 -->
 # Sorthem
 
-Sorthem es una herramineta que te permite visualizar TUS sorting-algorithms
+Te acuerdas de esos algoritmos de ordenamiento (bubble sort, selection sort, radix sort) que
+te hacen crear en tu colegio/universidad?
+
+No te gustaría poder visualizar esos algoritmos en tiempo real? en el lenguaje que quieras?
+
+Sorthem es una herramineta que te permite visualizar TUS algoritmos de ordenamiento
 de forma fácil y sencilla, solo añadiendo unas pocas líneas de código!!! 🙀🙀
+
+![Bubble Sort sorthem demo](./assets/demo.gif)
 
 ## Compilando Sorthem en tu PC
 
