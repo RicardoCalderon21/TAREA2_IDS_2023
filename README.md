@@ -6,7 +6,7 @@ te hacen crear en tu colegio/universidad?
 
 No te gustaría poder visualizar esos algoritmos en tiempo real? en el lenguaje que quieras?
 
-Sorthem es una herramineta que te permite visualizar TUS algoritmos de ordenamiento
+Sorthem es una herramienta que te permite visualizar TUS algoritmos de ordenamiento
 de forma fácil y sencilla, solo añadiendo unas pocas líneas de código!!! 🙀🙀
 Este es el motivo por el que creamos sorthem.
 
@@ -32,7 +32,7 @@ sudo apt install libsfml-dev
 
 #### Instalación de SMFL en MacOS
 
-Es preferible que uses `homebrew` como gestor de paquetes [homebrew](https://brew.sh/index_es).
+Es preferible que uses [homebrew](https://brew.sh/index_es) como gestor de paquetes.
 
 Si no tienes instalado `homebrew` ejecuta el siguiente comando:
 
