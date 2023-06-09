@@ -19,7 +19,7 @@ Sorthem tiene como única dependencia a [SFML](https://www.sfml-dev.org/) > 2.5
 (librería de gráficos). La instalación de SFML depende de tu sistema operativo.
 Ver [documentación oficial](https://www.sfml-dev.org/tutorials/latest).
 
-#### Instalación en Linux
+#### Instalación de SMFL en Linux
 
 Ejecuta los siguientes comandos en tu terminal:
 
@@ -39,7 +39,7 @@ Si no tienes instalado `homebrew` ejecuta el siguiente comando:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Una vez instalado `homebew`, ejecuta los siguientes comandos para instalar SFML:
+Una vez instalado `homebrew`, ejecuta los siguientes comandos para instalar SFML:
 
 ```bash
 # On MacOS
